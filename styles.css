@@ -1,3 +1,30 @@
-body{margin:0;background:#0f1114;color:white;font-family:-apple-system,Helvetica;}
-#app{display:flex;gap:20px;padding:20px;justify-content:center;}
-.pad{background:#222;padding:40px;border-radius:20px;text-align:center;user-select:none;}
+body {
+  text-align: center;
+  font-family: Arial;
+  background: #f4f4f4;
+  padding: 40px;
+}
+.madal {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+}
+.pad {
+  width: 140px;
+  height: 140px;
+  border-radius: 100px;
+  background: #c47f33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  user-select: none;
+  cursor: pointer;
+}
+.pad:active {
+  transform: scale(0.95);
+  background: #b36e22;
+}
